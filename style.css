@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-image: url("https://wallpaperaccess.com/full/3949372.jpg") !important;
+  background-size: contain !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+.title{
+  background-color: darkcyan;
+  text-align: center;
+  color: #fff;
+  height:  80px;
+}
+.navbar{
+  width: 300px !important;
+}
+a{
+text-align: center !important;
+}
+p{
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.25rem;
+}
+img{
+  border-radius: 50px;
+  margin-left: 30% !important;
+  margin-top: -10%;
+}
+footer{
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 25px;
+  background: rgba(19, 1, 1, 0.13);
+  text-align: center;
+  color: white;
+}
+
+.rainbow-pixel-canvas {
+  width: 80%;
+  height: 300px;
+  margin-left: 25%;
+  margin-top: -10%;
+  background: white;
+  border: solid black 1px;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-image:url("sheep.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.dropzone {
+  background-image: url("ohrada.jpg");
+  background-size: 100% 100% !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px auto 30px;
+  margin-left: 25%;
+  margin-top: -10%;
+  padding: 10px;
+  width: 900px;
+  height: 300px;
+}
+
+.tap-target {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 16em;
+  height: 16em;
+  padding: 1em;
+  margin: 1rem auto;
+  margin-top: -5%;
+  box-sizing: border-box;
+  background-image: url("Michael1.png");
+  background-size: 120% 100% !important;
+  background-repeat: no-repeat;
+}
+.tap-target.switch-bg {
+  background-image: url("Michael2.png");
+}
+.tap-target.large {
+  transform: scale(2);
+}
